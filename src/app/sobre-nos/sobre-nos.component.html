@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Divs no Centro da Tela</title>
+  <style>
+    body {
+      background-color: rgb(7, 6, 66);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;  
+      background-image: url('../../assets/download.avif');
+      background-size: cover; /* Preencherá toda a área disponível sem distorcer a imagem */
+      background-position: center; /* Centraliza a imagem */
+      background-repeat: no-repeat;
+    }
+
+    .principal{
+      background-color: rgb(7, 6, 66);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      width: 80%;
+    }
+
+    h1 {
+      color: white;
+      margin-bottom: 20%;
+    }
+    .info {
+      text-align: center;
+      padding: 30px;
+      margin-top: 0%;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      font-size: large;
+      border: 6px solid white;
+      color: white;
+      border-radius: 25px;
+      height: 385px;
+      width: 200px;
+    }
+    .info:hover {
+      color: rgb(67, 77, 167);
+    }
+
+    /* Estilos básicos para o footer */
+    h3 {
+      color: white;
+    }
+    .footer {
+      background-color: black;
+      color: white;
+      padding: 40px 0;
+    }
+
+    .container {
+      
+      margin: 0 auto;
+    }
+    .rodape {
+    text-align: center;
+    padding: 10px;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="principal">
+    <div class="info">
+      <h1>Bruno Gonçalves de Barros</h1>
+      <p>Destaca-se pela coragem de assumir riscos e buscar inovações constantes. 
+        Este profissional busca oportunidades para romper com o convencional, 
+        liderando projetos visionários e adotando novas tecnologias.</p>
+    </div>
+    <div class="info">
+      <h1>Diego Maradini</h1>
+      <p>Valoriza a estabilidade, preza pela segurança e consistência. Opta por abordagens comprovadas ao longo do tempo, 
+        evitando riscos desnecessários, proporcionando um alicerce sólido e confiável para a organização.</p>
+    </div>
+    <div class="info">
+      <h1>Gustavo Araujo</h1>
+      <p>Centrado equilibra ousadia e conservadorismo, buscando a harmonia entre inovação e estabilidade. Age com pragmatismo,
+         avaliando cuidadosamente os riscos antes de implementar mudanças, 
+         contribuindo para o crescimento sustentável e equilibrado da organização.</p>
+    </div>
+  </div>
+</body>
+</html>
+
+<footer class="footer">
+  <footer class="rodape">
+    <p>&copy; 2023 Portifolio. SENAI.</p>
+  </footer>
+</footer>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Divs no Centro da Tela</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url('../../assets/download.avif');
+    background-size: cover; /* Preencherá toda a área disponível sem distorcer a imagem */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    }
+
+    h1 {
+      color: white;
+      margin-bottom: 20%;
+    }
+
+    .info {
+
+      text-align: center;
+      padding: 30px;
+      margin-top: 0%;
+      margin: 5%;
+
+      font-size: large;
+      border: 6px solid white;
+      color: white;
+      border-radius: 25px;
+      width: 70%;
+    }
+
+    .info :hover {
+      color: rgb(67, 77, 167);
+    }
+
+    /* Estilos básicos para o footer */
+    h3 {
+      color: white;
+    }
+
+    .footer {
+      background-color: black;
+      color: white;
+      padding: 40px 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .rodape {
+    text-align: center;
+    padding: 10px;
+  }
+
+    .principal{
+      background-color: rgb(7, 6, 66);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      width: 80%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="principal">
+    <div class="info">
+      <h1>Bruno Barros</h1>
+      <p>Planejamento de Projetos</p>
+      <p>Analista de Compras</p>
+      <p> Analise de dados</p>
+      <p> Armazenamento em nuvem</p>
+      <p> BackEnd</p>
+    </div>
+    <div class="info">
+      <h1>Diego Maradini</h1>
+      <p> Automação Industrial</p>
+      <p> Supervisorio</p>
+      <p> Analise de dados</p>
+      <p> PLC</p>
+      <p> Banco de Dados</p>
+      <p> FrontEnd</p>
+      <p> BackEnd</p>
+    </div>
+    <div class="info">
+      <h1>Gustavo Araujo</h1>
+      <p> Automação Industrial</p>
+      <p> Supervisorio</p>
+      <p> Analise de dados</p>
+      <p> PLC</p>
+      <p> Robotica</p>
+      <p> FrontEnd</p>
+      <p> BackEnd</p>
+    </div>
+  </div>
+  
+</body>
+
+
+<footer class="footer">
+  <footer class="rodape">
+    <p>&copy; 2023 Portifolio. SENAI.</p>
+  </footer>
+</footer>
+
+</html>
